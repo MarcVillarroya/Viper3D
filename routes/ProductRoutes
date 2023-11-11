@@ -170,7 +170,7 @@ router.put('/update/:id', upload.fields([{ name: 'images[]', maxCount: 5 }, { na
   }
 });
 
-
+/////////////////////////////////
 
 // Ruta para obtener todos los productos por categoría
 router.get('/getProductsByCategory/:categoryId', async (req, res) => {
