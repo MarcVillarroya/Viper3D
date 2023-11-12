@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Servir archivos estáticos desde la carpeta 'public'
+// Servir archivos estáticos desde la carpeta 'public'gfhghg
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/img_productos', express.static(path.join(__dirname, 'public', 'img_productos')));
 
